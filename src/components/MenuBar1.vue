@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.menubar">
     <Property1Variant1
-      dimensionsText="/dashboard@2x.png"
+      dimensionsText="/dashboard@2x.svg"
       groupIdentifier="Dashboard"
       propWidth="40px"
       propHeight="50px"
@@ -13,23 +13,23 @@
       propWidth1="67.18%"
       propTop="24%"
     /><Property1Variant1
-      dimensionsText="/friends@2x.png"
+      dimensionsText="/friends@2x.svg"
       groupIdentifier="Friends"
       propWidth="45px"
       propHeight="50px"
       propLeft="0px"
       propLeft1="33.33%"
-      propColor="#333"
+      
       propTextAlign="left"
       propHeight1="unset"
       propWidth1="43.08%"
       propTop="18%"
     /><Property1Variant1
-      dimensionsText="/user-groups@2x.png"
+      dimensionsText="/group@2x.svg"
       groupIdentifier="Groups"
     /><Property1Variant
       buttonText="Activity"
-      iconId="/performance-macbook@2x.png"
+      iconId="/activity@2x.svg"
       propHeight="unset"
       propWidth="unset"
       propTop="18%"
@@ -46,7 +46,7 @@
       propMaxHeight="unset"
     /><Property1Variant
       buttonText="Settings"
-      iconId="/settings@2x.png"
+      iconId="/settings@2x.svg"
       propHeight="52%"
       propWidth="67.18%"
       propTop="24%"
@@ -61,7 +61,10 @@
       propLeft1="0%"
       propOverflow="hidden"
       propMaxHeight="100%"
-    /><Property1Variant buttonText="Logout" iconId="/logout@2x.png" />
+    /><Property1Variant buttonText="Logout" iconId="/logout@2x.svg" 
+    propWidth1="52%"
+    propLeft1="-10%"
+   />
   </div>
 </template>
 <script>

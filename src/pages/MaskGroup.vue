@@ -31,8 +31,8 @@
     left: 241px;
     border-radius: var(--br-8xs);
     background-color: rgba(208, 195, 210, 0.47);
-    width: 1183px;
-    height: 891px;
+    width: 1530px;
+    height: 830px;
   }
   .notificationIcon {
     position: absolute;
@@ -43,17 +43,17 @@
   }
   .dashboard {
     position: absolute;
-    top: 0px;
+    top: -59px;
     left: 0px;
     border-radius: 30px;
     background-color: var(--color-whitesmoke);
-    width: 1759px;
+    width: 1777px;
     height: 920px;
     overflow: hidden;
   }
   .maskGroup {
     width: 100%;
     position: relative;
-    height: 920px;
+    height: 830px;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.property1variant6">
+  <button :class="$style.property1variant6">
     <div :class="$style.logout" :style="logoutStyle">{{buttonText}}</div>
     <img
       :class="$style.logoutIcon"
@@ -7,10 +7,11 @@
       :src="iconId"
       :style="logoutIconStyle"
     />
-  </div>
+  </button>
 </template>
 <script>
   import { defineComponent } from "vue";
+
 
   export default defineComponent({
     name: "Property1Variant",
@@ -90,4 +91,12 @@
     color: var(--color-darkslategray);
     font-family: var(--font-radley);
   }
+  button{
+    border: none;
+
+    border-radius: 10px;
+  }
+  button:active {
+  color: rgb(3, 169, 244); /* Change background color when button is clicked */
+}
 </style>

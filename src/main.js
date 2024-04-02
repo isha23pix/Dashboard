@@ -23,7 +23,7 @@ const vuetify = createVuetify({
 const routes = [
   {
     path: "/",
-    name: "MaskGroup",
+    name: "Dashboard",
     component: MaskGroup,
   },
 ];

@@ -4,6 +4,18 @@ body {
   margin: 0;
   line-height: normal;
 }
+.radley-regular {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.radley-regular-italic {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 :root {
   /* fonts */
   --font-radley: Radley;

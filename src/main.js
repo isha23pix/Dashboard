@@ -7,6 +7,19 @@ import App from "./App.vue";
 import MaskGroup from "./pages/MaskGroup.vue";
 import "./global.css";
 
+
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+
+import vuetifyConfig from '@/plugins/vuetify';
+
+const vuetify = createVuetify({
+  components,
+  directives,
+})
+
 const routes = [
   {
     path: "/",
@@ -38,6 +51,6 @@ const addMetaTag = (value) => {
   }
 };
 
-createApp(App).use(router).mount("#app");
+createApp(App).use(router).use(vuetify).use(vuetifyConfig).mount("#app");
 
 export default router;

@@ -10,6 +10,7 @@
       /><Button /><SearchBar /><AppName /><MenuBar1 />
     </div>
   </div>
+  
 </template>
 <script>
   import { defineComponent } from "vue";

@@ -1,8 +1,9 @@
 <!-- PropertyButton.vue -->
 <template>
  <!-- <div class="text-center"> -->
-  <v-btn variant="text" :class="[buttonClass, 'uppercase']" type="button" prepend-icon=mdiIcon style="padding: 0; min-width: unset;">
+  <v-btn variant="text" :class="[buttonClass, 'uppercase']" type="button" prepend-icon=mdiIcon style="padding: 0; min-width: unset;" class="p">
      <v-icon class="icon">{{ mdiIcon }}</v-icon>
+   
     <!-- <img :src="iconSrc" alt="" class="icon" /> -->
     <span class="label">{{ label }}</span>
   </v-btn>
@@ -54,10 +55,6 @@ export default defineComponent({
    cursor: pointer; 
 }
 
-
-
-
-
 .property-dashboard {
   background-color: var(--color-whitesmoke);
 }
@@ -69,14 +66,22 @@ export default defineComponent({
 .property-logout {
   background-color: var(--color-whitesmoke);
 }
+.icon{
+  color:black;
+}
+
+/* .p:active{
+  color:brown;
+} */
 
 .property-button:active {
   color: rgb(3, 169, 244);
- 
 }
+
 .property-button:active .icon {
-  fill: rgb(3, 169, 244); /* Change fill color of SVG */
+ color: rgb(3, 169, 244);
 }
+
 .property-button .label {
   margin-left: 18px; /* Adjust the spacing between icon and text */
 }

@@ -18,10 +18,11 @@
 <style scoped>
 
 .s{
-  width: 480px;
+  width: 680px;
   position: absolute;
-  left: 259px; 
+  left: 269px; 
   top:22px;
+  /* border: 3px solid; */
   /* right: 230px!important; */
 }
 </style>

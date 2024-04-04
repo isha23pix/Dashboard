@@ -3,11 +3,8 @@
     <div :class="$style.dashboard">
       <div :class="$style.mainSection" />
       <User1 />
-      <img
-        :class="$style.notificationIcon"
-        alt=""
-        src="/notification.svg"
-      /><Button /><SearchBar /><AppName /><MenuBar1 />
+   
+     <Button /><SearchBar /><AppName /><MenuBar1 />
     </div>
   </div>
   
@@ -35,13 +32,17 @@
     width: 1530px;
     height: 830px;
   }
-  .notificationIcon {
+  /* .notificationIcon {
     position: absolute;
     top: 23px;
     left: 1103px;
     width: 50px;
     height: 50px;
+  } */
+   .notificationIcon:active  {
+    color: aqua!important;;
   }
+  
   .dashboard {
     position: absolute;
     top: -59px;
@@ -56,5 +57,8 @@
     width: 100%;
     position: relative;
     height: 830px;
+  }
+  .icon{
+    color: #673ab7;
   }
 </style>

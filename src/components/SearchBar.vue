@@ -1,7 +1,7 @@
 <template>
   <v-text-field
       class="s"
-        prepend-icon="mdi-magnify"
+        prepend-inner-icon="mdi-magnify"
         hide-details
         single-line
       ></v-text-field>
@@ -18,10 +18,11 @@
 <style scoped>
 
 .s{
-  width: 480px;
+  width: 620px;
   position: absolute;
   left: 259px; 
-  top:22px;
+  top:23px;
+  height: 47px;
   /* right: 230px!important; */
 }
 </style>

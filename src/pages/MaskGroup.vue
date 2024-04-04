@@ -3,11 +3,9 @@
     <div :class="$style.dashboard">
       <div :class="$style.mainSection" />
       <User1 />
-      <img
-        :class="$style.notificationIcon"
-        alt=""
-        src="/notification.svg"
-      /><Button /><SearchBar /><AppName /><MenuBar1 />
+      <v-btn class="notificationIcon" icon size="47" style="border: 3px solid #673ab7; position: absolute; top: 23px;left: 1200px;">
+      <v-icon style="color: #673ab7">mdi-bell-outline</v-icon></v-btn>
+      <Button /><SearchBar /><AppName /><MenuBar1 />
     </div>
   </div>
   
@@ -29,19 +27,12 @@
   .mainSection {
     position: absolute;
     top: 126px;
-    left: 241px;
+    left: 259px;
     border-radius: var(--br-8xs);
     background-color: rgba(208, 195, 210, 0.47);
     width: 1530px;
     height: 830px;
-  }
-  .notificationIcon {
-    position: absolute;
-    top: 23px;
-    left: 1103px;
-    width: 50px;
-    height: 50px;
-  }
+  }  
   .dashboard {
     position: absolute;
     top: -59px;

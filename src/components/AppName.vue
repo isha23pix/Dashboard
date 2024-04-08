@@ -37,4 +37,23 @@
     color: var(--color-black);
     font-family: var(--font-artifika);
   }
+
+  /* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .appnameChild {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .tabtacticx {
+    font-size: 3vw;
+  }
+
+  .appname {
+    top: 5vw;
+    left: 5vw;
+    width: 60vw;
+  }
+}
+
 </style>

@@ -1,13 +1,19 @@
 <template>
-  <div :class="$style.maskGroup">
-    <div :class="$style.dashboard">
-      <div :class="$style.mainSection" />
+  <v-app>
+    
+    <v-app-bar :elevation="0">
+      <AppName />
+      <SearchBar />
+      <Button />
       <User1 />
-   
-     <Button /><SearchBar /><AppName /><MenuBar1 />
-    </div>
-  </div>
-  
+    </v-app-bar>
+      
+     <!-- <MenuBar1 /> -->
+     <Sidebar />
+     <v-main style="background-color: rgba(208, 195, 210, 0.848);"></v-main>
+
+  </v-app>
+
 </template>
 <script>
   import { defineComponent } from "vue";
@@ -15,11 +21,12 @@
   import Button from "../components/Button.vue";
   import SearchBar from "../components/SearchBar.vue";
   import AppName from "../components/AppName.vue";
-  import MenuBar1 from "../components/MenuBar1.vue";
+  import Sidebar from "../components/Sidebar.vue";
+  // import MenuBar1 from "../components/MenuBar1.vue";
 
   export default defineComponent({
     name: "MaskGroup",
-    components: { User1, Button, SearchBar, AppName, MenuBar1 },
+    components: { User1, Button, SearchBar, AppName, Sidebar},
   });
 </script>
 <style module>
@@ -28,9 +35,9 @@
     top: 126px;
     left: 241px;
     border-radius: var(--br-8xs);
-    background-color: rgba(208, 195, 210, 0.47);
-    width: 1530px;
-    height: 830px;
+    background-color: rgba(208, 195, 210, 0.848);
+    /* width: 1530px;
+    height: 830px; */
   }
   /* .notificationIcon {
     position: absolute;

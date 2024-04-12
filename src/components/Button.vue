@@ -27,12 +27,12 @@ export default defineComponent({
   border: 2px;
 }
 .expense{
-  top: 23px;
-  left: 370px;
-   height: 53px!important;
+  align-items: center;
+  left: 700px;
+   height: 60%!important;
    color: blueviolet;
    text-transform: none;
-   font-size: 19px;
+   font-size: 15px;
    font-family: radley-regular;
    border:3px solid;
    border-radius: 13px;

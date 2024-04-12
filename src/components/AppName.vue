@@ -13,10 +13,10 @@
 </script>
 <style module>
   .appnameChild {
-    width: 60px;
+    width: 40px;
     position: relative;
     border-radius: 50%;
-    height: 60px;
+    height: 40px;
     object-fit: cover;
   }
   .tabtacticx {
@@ -24,8 +24,8 @@
   }
   .appname {
     position: absolute;
-    top: 31px;
-    left: 48px;
+    /* top: 31px; */
+    left: 20px;
     width: 165px;
     height: 35px;
     display: flex;
@@ -33,7 +33,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: var(--font-size-11xl);
+    font-size: var(--font-size-3xl);
     color: var(--color-black);
     font-family: var(--font-artifika);
   }

@@ -17,10 +17,12 @@
 <style scoped>
 
 .s{
-  width: 680px;
+  width: 40%;
+  height: 60%;
   position: absolute;
-  left: 269px; 
-  top:22px;
+  left: 200px; 
+  align-items: center;
+  align-content: center;
     z-index: 1; 
    /* color: var(--color-whitesmoke); */
   box-shadow: 0px 2px 4px rgba(12, 9, 9, 0.16);
